@@ -14,7 +14,7 @@ import org.redisson.api.RedissonClient;
 @Service
 public class UserServiceImpl extends ServiceImpl<Mapper, User> implements UserService {
     public User getOne() {
-        User user = handlerUserInfo(baseMapper.selectById(1));
+        return handlerUserInfo(baseMapper.selectById(1));
     }
     
     private RedissonClient redissonClient;
