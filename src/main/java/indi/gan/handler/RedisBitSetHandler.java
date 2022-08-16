@@ -7,6 +7,7 @@ import org.redisson.api.RBitSet;
 import org.springframework.stereotype.Component;
 
 /**
+ * 将对应的BitSet所有为1的数量赋值到字段上
  * @author GaN
  * @since 2022/8/3
  */

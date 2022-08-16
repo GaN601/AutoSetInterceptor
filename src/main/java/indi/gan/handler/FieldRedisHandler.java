@@ -14,7 +14,7 @@ import java.lang.reflect.Field;
 import java.util.Map;
 
 /**
- * 如果以后要添加其他字段注解, 可以在这里增加FieldHandler, 然后在{@link AutoSetInterceptor}中的处理链中添加字段处理器
+ * 如果以后要添加其他字段注解, 可以增加FieldHandler, 然后会在{@link AutoSetInterceptor}中的处理链中注入新的字段处理器
  * @author GaN
  * @since 2022/8/3
  */

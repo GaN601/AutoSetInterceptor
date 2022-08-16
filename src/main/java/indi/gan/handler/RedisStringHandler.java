@@ -7,6 +7,7 @@ import indi.gan.enums.RedisType;
 import org.redisson.api.RBucket;
 
 /**
+ * 将指定key的值赋值到对象上
  * @author GaN
  * @since 2022/8/3
  */

@@ -26,7 +26,7 @@ public class Chain<T> {
     /**
      * 允许处理成功的次数
      */
-    private Integer successCount;
+    private final Integer successCount;
     
     public Chain() {
         this(-1);

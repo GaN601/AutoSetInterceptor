@@ -10,6 +10,7 @@ import org.redisson.api.RBitSet;
 import org.springframework.stereotype.Component;
 
 /**
+ * 根据参数将指定BitSet位置结果设置到字段上
  * @author GaN
  * @since 2022/8/15
  */
