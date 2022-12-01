@@ -4,6 +4,7 @@ import indi.gan.annotation.SetRedisValue;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.lang.reflect.Field;
 
 /**
@@ -16,4 +17,5 @@ public class SetRedisValueDTO {
     private SetRedisValue annotation;
     private Object source;
     private Field targetField;
+    private Long userId;
 }
